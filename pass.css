@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #e8dcdc;
+    background-color: #202023;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #060606;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(250, 237, 237, 0.2);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #fffafa;
+    margin-bottom: 20px;
+}
+
+.display-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.strength-container{
+    font-size: large;
+    color: #4375aa;
+}
+
+.display {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: #646669;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.length-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.slider {
+    width: 100%;
+    margin: 10px 0;
+    
+}
+
+div > input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    color: #f2d9d9;
+    font-size: 14px;
+}
+
+.strength-container {
+    margin: 20px 0;
+}
+
+[data-indicator] {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+}
+
+.generateButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.generateButton:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .display {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
